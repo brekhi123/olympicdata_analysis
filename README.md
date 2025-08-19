@@ -1,4 +1,4 @@
-# 🏅 Olympic Data Analysis Project
+# Olympic Data Analysis Project
 
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.3.1+-green.svg)](https://pandas.pydata.org/)
@@ -94,9 +94,9 @@ kaggle.api.dataset_download_files('heesoo37/120-years-of-olympic-history-athlete
 - **Duplicates**: Removed to ensure data integrity
 - **Data Types**: Properly categorized (numerical vs categorical)
 
-## 📊 Analysis and Visualizations
+## Analysis and Visualizations
 
-### 📈 1. Age Distribution of Olympic Athletes
+### 1. Age Distribution of Olympic Athletes
 
 ![Age Distribution of Olympic Athletes](plots/age_dist.png)
 
@@ -105,7 +105,7 @@ kaggle.api.dataset_download_files('heesoo37/120-years-of-olympic-history-athlete
 - Most athletes compete in their 20s, indicating peak athletic performance age
 - The distribution reflects the natural aging process and retirement patterns in sports
 
-### 📏 2. Height vs Age Relationship by Gender
+### 2. Height vs Age Relationship by Gender
 
 ![Height vs Age Relationship by Gender](plots/scatterplot.png)
 
@@ -120,7 +120,7 @@ kaggle.api.dataset_download_files('heesoo37/120-years-of-olympic-history-athlete
 
 - **Variability**: There's a considerable amount of variability in height within each age group for both sexes
 
-### 🏆 3. Medal Performance Distribution by Age and Gender
+### 3. Medal Performance Distribution by Age and Gender
 
 ![Medal Performance Distribution by Age and Gender](plots/boxplot.png)
 
@@ -139,7 +139,7 @@ kaggle.api.dataset_download_files('heesoo37/120-years-of-olympic-history-athlete
 - Notable drop in performance in 2020
 - Demonstrates the evolution of Canada's Olympic success over a century
 
-### 👑 5. Top 10 Most Decorated Olympic Athletes in History
+### 5. Top 10 Most Decorated Olympic Athletes in History
 
 ![Top 10 Most Decorated Olympic Athletes](plots/top10.png)
 
